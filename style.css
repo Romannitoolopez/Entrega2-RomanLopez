@@ -145,3 +145,29 @@ ol li {
   color: rgb(206, 117, 132);
   text-decoration: none;
 }
+/* --- NAVBAR CON FLEXBOX --- */
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe4ec;
+  padding: 10px 20px;
+}
+
+.nav-principal ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-principal a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-principal a:hover {
+  border-bottom: 2px solid #c94e6f;
+}
