@@ -1,0 +1,147 @@
+/* ==== COLORES GENERALES ==== */
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  background-color: pink;
+}
+
+nav {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ==== TIPOGRAFÍA Y LINKS ==== */
+
+.nav-link {
+  color: rgb(206, 117, 132);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  background-color: white;
+  font-size: 80px;
+  font-family: "Sacramento", cursive;
+}
+
+/* Para títulos especiales */
+.texto-arriba {
+  font-family: "Edu VIC WA NT Hand Pre", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* ==== IMÁGENES ==== */
+img {
+  margin-left: 50rem;
+  margin-right: 50rem;
+}
+
+/* ==== BOTONES Y ENLACES ==== */
+.ver-catalogo {
+  text-decoration: none;
+  color: black;
+}
+
+/* ==== SOBRE NOSOTROS ==== */
+.seccion-rosita {
+  background-color: #ffe4ec;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+h3 {
+  color: #c94e6f;
+  margin-top: 20px;
+}
+
+/* ==== CATÁLOGO ==== */
+.producto {
+  background-color: #fff0f5;
+  border: 1px solid #f5c2cc;
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* ==== ¿CÓMO ENCARGO? ==== */
+ol {
+  background-color: #fff4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+/* ==== FORMULARIO DE CONTACTO ==== */
+
+
+.formulario-contacto {
+  background-color: white;
+  padding: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid gray;
+}
+
+.campo-contacto {
+  margin-bottom: 10px;
+}
+
+.campo-contacto label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.campo-contacto input,
+.campo-contacto textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+}
+
+.campo-contacto textarea {
+  height: 80px;
+}
+
+.btn-contacto {
+  width: 100%;
+  padding: 8px;
+  background-color: pink;
+  color: black;
+  border: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.info-extra {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.info-extra a {
+  color: rgb(206, 117, 132);
+  text-decoration: none;
+}
