@@ -171,8 +171,8 @@ ol li {
 .nav-principal a:hover {
   border-bottom: 2px solid #c94e6f;
 }
-/* === HERO (main) === */
-.hero {
+/* === PORTADA (main) === */
+.portada {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,19 +180,19 @@ ol li {
   background-color: #fff4f4;
 }
 
-.hero-texto {
+.portada-texto {
   max-width: 50%;
 }
 
-.hero-texto h2 {
+.portada-texto h2 {
   color: #c94e6f;
 }
 
-.hero-texto p {
+.portada-texto p {
   font-size: 1.1rem;
 }
 
-.hero-imagen img {
+.portada-imagen img {
   width: 300px;
   border-radius: 10px;
 }
@@ -206,6 +206,9 @@ ol li {
   border-radius: 5px;
 }
 
+.btn-principal:hover {
+  background-color: #a83855;
+}
 .btn-principal:hover {
   background-color: #a83855;
 }
