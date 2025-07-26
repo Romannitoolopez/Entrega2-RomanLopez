@@ -349,3 +349,54 @@ footer {
   color: #c94e6f;
   text-decoration: none;
 }
+.main-nosotros {
+  background-color: #fff4f4;
+  padding: 40px 20px;
+}
+
+.nosotros-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nosotros-texto {
+  flex: 1 1 400px;
+}
+
+.nosotros-texto h2 {
+  font-size: 2rem;
+  color: #c94e6f;
+  margin-bottom: 10px;
+}
+
+.nosotros-texto p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.nosotros-texto ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.nosotros-imagen {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.nosotros-imagen img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
