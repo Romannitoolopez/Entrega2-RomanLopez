@@ -171,3 +171,73 @@ ol li {
 .nav-principal a:hover {
   border-bottom: 2px solid #c94e6f;
 }
+/* === HERO (main) === */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff4f4;
+}
+
+.hero-texto {
+  max-width: 50%;
+}
+
+.hero-texto h2 {
+  color: #c94e6f;
+}
+
+.hero-texto p {
+  font-size: 1.1rem;
+}
+
+.hero-imagen img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.btn-principal {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c94e6f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-principal:hover {
+  background-color: #a83855;
+}
+
+/* === PRODUCTOS DESTACADOS (main) === */
+.destacados {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-productos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.producto {
+  background-color: #fff0f5;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 200px;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #ffe4ec;
+  text-align: center;
+  padding: 10px;
+}
